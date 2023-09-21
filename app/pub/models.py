@@ -22,4 +22,3 @@ class Forum(AbstractPost):
 class Comment(AbstractPost):
     text = models.CharField(max_length=255)
     forum = models.ForeignKey(Forum, on_delete=models.CASCADE)
-

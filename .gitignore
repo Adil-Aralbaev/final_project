@@ -1,6 +1,10 @@
 .idea
-.env
 venv
+
+.env
+.env.prod
+.env.prod.db
+
 static
 media
 
